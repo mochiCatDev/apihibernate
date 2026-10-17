@@ -1,10 +1,10 @@
-package com.krakdev.peliculas.services;
+package com.krakedev.peliculas.services;
 
 import java.util.List;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
-import com.krakdev.peliculas.entidades.Pelicula;
-import com.krakdev.peliculas.repository.PeliculaRepository;
+import com.krakedev.peliculas.entidades.Pelicula;
+import com.krakedev.peliculas.repository.PeliculaRepository;
 
 @Service
 public class PeliculaService {
