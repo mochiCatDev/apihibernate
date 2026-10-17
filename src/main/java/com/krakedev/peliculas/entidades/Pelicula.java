@@ -1,4 +1,4 @@
-package com.krakdev.peliculas.entidades;
+package com.krakedev.peliculas.entidades;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
