@@ -28,6 +28,9 @@ public class Pelicula {
 
 	@Column(nullable = false)
 	private boolean disponible;
+	
+	@Column(nullable = false)
+	private double calificacion;
 
 	public Pelicula() {
 		super();
@@ -91,9 +94,17 @@ public class Pelicula {
 		this.disponible = disponible;
 	}
 
+	public double getCalificacion() {
+		return calificacion;
+	}
+
+	public void setCalificacion(double calificacion) {
+		this.calificacion = calificacion;
+	}
+
 	@Override
 	public String toString() {
 		return "Pelicula [id=" + id + ", nombre=" + nombre + ", director=" + director + ", genero=" + genero
-				+ ", duracion=" + duracion + ", disponible=" + disponible + "]";
+				+ ", duracion=" + duracion + ", disponible=" + disponible + ", calificacion=" + calificacion + "]";
 	}
 }
